@@ -1,0 +1,45 @@
+body{
+    background-color: lightgrey;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background-color: floralwhite;
+    height: 100px;
+    top: 10px;
+    margin-bottom: 30px;
+}
+.header h1{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 15px;
+}
+img{
+    max-width: 100%;
+}
+h2{
+    font-weight: bold;
+}
+p{
+    margin-top: 20px;
+}
+.detail{
+    margin-top: 30px;
+    background-color: #333333;
+    height: 50px;
+}
+.dt_product{
+    padding-top: 10px;
+    margin: auto;
+}
+a{
+    color: white;
+    font-size: 20px;
+}
+.product{
+    margin-top: 50px;
+    background-color: floralwhite;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #14182a;
+    font-family: "Josefin Sans";
+}
+.header{
+    min-height: 80px;
+    background-color: #1b2039;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    line-height: 80px;
+    z-index: 1;
+}
+.header .logo{
+    font-size: 30px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.header p{
+    color: aqua;
+    font-size: 15px;
+}
+.header .trd_title{
+    margin-left: -30px;
+    font-size: 15px;
+}
+.rec_played{
+    margin-bottom: 25px;
+    color: #2cc8e5;
+}

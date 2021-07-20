@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    color:#333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: lightgrey;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    float: none;
+}
+header{
+    background-image: url("../image_Labs2/duc-chinh.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    border: 0;
+}
+.header{
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+.logo{
+    float: left;
+    width: 35%;
+}
+.logo a{
+    font-size: 28px;
+    color: #222222;
+    text-decoration: none;
+    font-weight: 700;
+}
+.toplinks{
+    float: none;
+    width: auto;
+}
+.toplinks ul{
+    float: none;
+}
+.toplinks li{
+    display: inline;
+    float: none;
+    margin-left: 20px;
+    text-align: center;
+}
+.toplinks  a{
+    color: #222222;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 52px;
+}
+.icons .social{
+    float: right;
+    padding-right: 60px;
+    margin-top: -35px;
+}
+.icons .search{
+    float: right;
+    margin-top: -35px;
+}
+.icons .icon{
+
+}
+.icons ul{
+    list-style: none;
+ }
+.icons li{
+    float: left;
+    margin-left: 20px;
+}
+
+.icon{
+    width: 20px;
+}
+.center {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.center h1{
+    padding-bottom: 20px;
+}
+
+figure{
+    display: block;
+    width: 380px;
+    height: 170px;
+    background-color: #e7e3d8;
+    margin:0px;
+    padding: 9px;
+    text-align: left;
+}
+section .container img{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+
+section .container{
+    width: 1200px;
+    margin: 0 auto;
+}

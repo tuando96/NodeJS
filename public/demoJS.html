@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+<body>
+    <h1>Demo Javascript</h1>
+    <script type="text/javascript">
+        // code js viet tai day
+        var x; // khai báo biến x
+        // kiểu dữ liệu: Number, string, array, object
+        x=15.14; // x là 1 number
+        console.log(x);
+        x="xin chao";
+        console.log(x);
+        x = x + 5; // xin chao5
+        console.log(x);
+        var y = 20;
+        y = y + 5; //25
+        console.log(y);
+        /*
+           number + number -> number
+           number + string -> string
+           string + string -> string
+         */
+        console.log("Xin chao, day la lop T2104E, so hoc sinh:"+25+" hoc sinh");
+
+        if(y>20){
+            console.log("y > 20");
+        }else{
+            console.log("y < 20");
+        }
+        for(var i=0;i<20;i++){
+            console.log("i = "+i);
+        }
+
+        var arr = []; //khai báo 1 mảng - ko giới hạn số lượng phần tử
+        arr[0] = 1001;
+        arr[1] = "xin chao"; // ko ràng buộc kiểu dl các phần tử
+        arr[2] = "12"; // nguy hiểm  -> đây là string chứ ko phải number
+        arr[2] = 15; //
+        console.log(arr[0]);
+        console.log(arr[2]);
+        console.log(arr);
+        arr[3] = [1,2,3,4]; // ko giới hạn các chiều của mảng (mảng 2 chiều)
+        arr[4] = ["xin chao",1,2, [1,2,3]]; //mảng 3 chiều
+
+        var arr2 = [];
+        for(var i =0; i < 20; i++){
+            arr2.push(i*i);// thêm 1 pt có giá trị i*i vào mảng
+        }
+        arr2.push(555); // cho pt vào cuối danh sách
+        console.log(arr2);
+        var c = tinhtong(5,6);
+        console.log("c ="+c);
+        function tinhtong(a,b){
+            return a+b;
+        }
+    </script>
+</body>
+</html>
